@@ -11,6 +11,15 @@ gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem 'therubyracer'
 
+gem 'unicorn'
+
+# Use Capistrano for deployment
+
+gem 'capistrano-rails', '~> 1.1'
+gem 'capistrano', '~>3.1'
+gem 'capistrano-bundler', '~> 1.1.2'
+gem 'capistrano-rbenv'
+
 group :development, :test do
   gem 'sqlite3', '1.3.8'
   gem 'rspec-rails', '2.13.1'
