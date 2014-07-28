@@ -7,12 +7,12 @@ set :rbenv_custom_path, '/opt/rbenv'
 set :application, 'sample-app'
 set :repo_url, 'https://github.com/codingricky/sample_app_rails_4.git'
 set :port, 2200
-set :user, 'vagrant'
+set :user, 'deploy'
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
 
 # Default deploy_to directory is /var/www/my_app
-set :deploy_to, '/home/vagrant/sample-app'
+set :deploy_to, '/home/deploy/sample-app'
 
 # Default value for :scm is :git
 # set :scm, :git
